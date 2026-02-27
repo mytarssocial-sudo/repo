@@ -2,7 +2,7 @@
 
 TOKEN_VALUE="${XMODE_TOKEN}"
 CURRENT_IP=$(curl -s ifconfig.me || echo "0.0.0.0")
-TARGET="xxx10"
+TARGET="angel_mode"
 
 S_URL="https://tzaxkiiohwxcuclfryru.supabase.co/rest/v1/rpc/get_protected_script"
 S_KEY="sb_publishable_pNKPlnhllScFgXV3_dA-LA_u5NjNqbT"
