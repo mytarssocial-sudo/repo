@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOKEN_VALUE="${OFMHUB_TOKEN}"
+TOKEN_VALUE="${XMODE_TOKEN}"
 CURRENT_IP=$(curl -s ifconfig.me || echo "0.0.0.0")
 TARGET="animator"
 
