@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOKEN_VALUE="${XMODE_TOKEN}"
+TOKEN_VALUE="${OFMHUB_TOKEN}"
 CURRENT_IP=$(curl -s ifconfig.me || echo "0.0.0.0")
 TARGET="x_mode"
 
